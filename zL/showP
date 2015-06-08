@@ -1,0 +1,16 @@
+-- showP - show peripheral methods
+
+local tArgs = { ... }
+local side = tArgs[1]
+-- side is either "front", "back", "left", "right", "top" or "bottom"
+
+tPer = peripheral.getMethods(side)
+
+for i = 1, #tPer, 1 do
+  print(tPer[i])
+end
+
+-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+-- FTB Tutorial (ComputerCraft): Get list of all peripheral functions
+-- by MtbfreakGames
+-- Original video: https://www.youtube.com/watch?v=fvCCzegJKSo

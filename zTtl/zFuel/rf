@@ -1,0 +1,3 @@
+turtle.refuel(64)
+print("Fuel: ")
+print(turtle.getFuelLevel())

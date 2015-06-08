@@ -1,0 +1,3 @@
+sleep(2)
+turtle.select(1)
+turtle.place()
